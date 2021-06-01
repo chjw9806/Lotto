@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -44,6 +45,7 @@ fun getShuffledLottoNumbers () : MutableList<Int>{
     list.shuffle()
     return  list.subList(0,6)
 }
+
 
 class MainActivity : AppCompatActivity() {
 
